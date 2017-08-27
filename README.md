@@ -1,4 +1,4 @@
-[![logo](logo.svg)](https://kodi.tv/)
+[![logo](https://cdn.rawgit.com/KillWolfVlad/kodi-standalone-improved-AUR/478668358427731959ea6ec57c4c93f22daf9571/logo.svg)](https://kodi.tv/)
 
 # Kodi Standalone Service (_improved_)
 
