@@ -1,0 +1,6 @@
+u kodi - "Kodi - Open Source Home Theater Software" /var/lib/kodi
+
+m kodi audio
+m kodi video
+m kodi network
+m kodi optical

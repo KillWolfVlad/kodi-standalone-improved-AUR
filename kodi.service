@@ -12,6 +12,7 @@ TTYPath=/dev/tty1
 ExecStart=/usr/bin/xinit /usr/bin/kodi-standalone -- :0 -nolisten tcp vt1
 Restart=on-abort
 StandardInput=tty
+AmbientCapabilities=CAP_NET_BIND_SERVICE
 
 [Install]
 WantedBy=multi-user.target

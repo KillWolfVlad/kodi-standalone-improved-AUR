@@ -1,0 +1,24 @@
+pkgbase = kodi-standalone-improved
+	pkgdesc = Systemd service to run kodi in stand-alone mode without a DE or WM
+	pkgver = 1.93
+	pkgrel = 2
+	url = https://github.com/KillWolfVlad/kodi-standalone-improved-AUR
+	install = kodi.install
+	arch = x86_64
+	license = GPL3
+	depends = systemd
+	depends = xorg-server
+	depends = xorg-xinit
+	depends = kodi
+	depends = polkit
+	conflicts = kodi-standalone-service
+	replaces = xbmc-standalone-service
+	source = kodi.service
+	source = kodi.sysusers
+	source = kodi.tmpfiles
+	sha256sums = 299c9a4676d3c15b495ad1b640609b797aeec1c8091e0a02e66f8f76711ebeef
+	sha256sums = c6e4408833c572c1042e3562bd7440fa293438580c99bf0b7b0b17fbf208e942
+	sha256sums = cdd87a1e8f859686c0fbf30f7af3135e909a08b40435d9b060b17b91621f529b
+
+pkgname = kodi-standalone-improved
+
